@@ -15,6 +15,8 @@ public class Pattern {
 
         } catch (Exception e) {
             System.out.println("Invalid row count.");
+        }finally {
+            scanner.close();
         }
     }
 
